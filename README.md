@@ -1,5 +1,7 @@
 # Hybrid-recommedation-system-
 
+Abstract
+This project is the final project for USC CSCI-544 Applied Natural Language Proccessing. This project aims to provide users more accuracte recommandation for resturants based on performance semantic analysis over user"s previous reviews left on Yelp. Due to the limation in size, all the data set cannot be uploaded. To access the origial data, please visit the Yelp Data Set. The content below will provide a workflow about how to recur the build of our system.
 
 Data Selection
 This project mainly works with the three data sets: business, reviews, and users. These data sets are in .json format can be accessed in Yelp Data Set. To perform the data selection
