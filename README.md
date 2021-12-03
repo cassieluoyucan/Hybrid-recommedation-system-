@@ -1,16 +1,16 @@
 # Hybrid-recommedation-system-
 
-Data
-Please refer to the following Google Drive link for all the data used and generated in this project.
-Google Drive link
 
 Data Selection
-This project mainly works with the three data sets: business, reviews, and users. These data sets are in .json format can be accessed in Yelp Data Set. To perform the data selection, please run the following .py file with command line and the jupyter notebook file.
+This project mainly works with the three data sets: business, reviews, and users. These data sets are in .json format can be accessed in Yelp Data Set. To perform the data selection
+
+please run the following .py file with command line and the jupyter notebook file.
 
 Data Selection on businesses and users data set.
 Firstly, please the run the following CLI to preform the data selection over businesses and users data set.
 
  python data_preprare.py {business_path} {user_path}
+
 Data Selection on reviews data set.
 Next, please run the "review_json.ipynb" jupyter notebook file. This file will select the reviews from the original reviews data set. Notice that this module applied the Hadoop for MapReduce, and it applied the python implementation pyspark package. This process will do the initial data cleaning, including lower all the characters, removing the stop words, and removing all the non-alphabetic characters.
 
